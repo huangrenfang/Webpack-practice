@@ -90,26 +90,16 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _heading__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _markdown_md__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _markdown_md__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_markdown_md__WEBPACK_IMPORTED_MODULE_0__);
 
-
-const heading = Object(_heading__WEBPACK_IMPORTED_MODULE_0__["default"])();
-document.body.append(heading);
+console.log(_markdown_md__WEBPACK_IMPORTED_MODULE_0___default.a)
 
 /***/ }),
 /* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (()=>{
-    const element = document.createElement('h2');
-    element.textContent = 'Hello Webpack';
-    element.addEventListener('click',()=>{
-        alert('hello webpack')
-    })
-    return element
-});
+throw new Error("Module build failed: Error: Final loader (./src/markdown-loader.js) didn't return a Buffer or String\n    at /Users/huangrenfang/Desktop/Webpack-practice/node_modules/_webpack@4.43.0@webpack/lib/NormalModule.js:333:18\n    at /Users/huangrenfang/Desktop/Webpack-practice/node_modules/_loader-runner@2.4.0@loader-runner/lib/LoaderRunner.js:373:3\n    at iterateNormalLoaders (/Users/huangrenfang/Desktop/Webpack-practice/node_modules/_loader-runner@2.4.0@loader-runner/lib/LoaderRunner.js:214:10)\n    at iterateNormalLoaders (/Users/huangrenfang/Desktop/Webpack-practice/node_modules/_loader-runner@2.4.0@loader-runner/lib/LoaderRunner.js:221:10)\n    at /Users/huangrenfang/Desktop/Webpack-practice/node_modules/_loader-runner@2.4.0@loader-runner/lib/LoaderRunner.js:236:3\n    at runSyncOrAsync (/Users/huangrenfang/Desktop/Webpack-practice/node_modules/_loader-runner@2.4.0@loader-runner/lib/LoaderRunner.js:124:12)\n    at iterateNormalLoaders (/Users/huangrenfang/Desktop/Webpack-practice/node_modules/_loader-runner@2.4.0@loader-runner/lib/LoaderRunner.js:232:2)\n    at Array.<anonymous> (/Users/huangrenfang/Desktop/Webpack-practice/node_modules/_loader-runner@2.4.0@loader-runner/lib/LoaderRunner.js:205:4)\n    at Storage.finished (/Users/huangrenfang/Desktop/Webpack-practice/node_modules/_enhanced-resolve@4.1.1@enhanced-resolve/lib/CachedInputFileSystem.js:55:16)\n    at /Users/huangrenfang/Desktop/Webpack-practice/node_modules/_enhanced-resolve@4.1.1@enhanced-resolve/lib/CachedInputFileSystem.js:91:9\n    at /Users/huangrenfang/Desktop/Webpack-practice/node_modules/_graceful-fs@4.2.4@graceful-fs/graceful-fs.js:123:16\n    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)");
 
 /***/ })
 /******/ ]);
